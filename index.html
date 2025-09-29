@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaili Dixit | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header>
+    <nav>
+      <h2 class="logo">Shaili Dixit</h2>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Shaili Dixit</span></h1>
+      <h2 class="typing-text"></h2>
+      <p>Turning ideas into impactful tech solutions.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <!-- Placeholder for your image -->
+    <div class="hero-image">
+      <div class="photo-placeholder"><a href="https://ibb.co/mZP2Mcn"><img src="https://i.ibb.co/QSxT1KW/cropped-circle-image.png" alt="cropped-circle-image" border="0" style="height: 220px;"></a><br /></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Aspiring software engineer currently pursuing B.Tech in Computer Science and Engineering, 
+      with a strong interest in Artificial Intelligence, Web Development, and socially impactful technology. 
+      Seeking opportunities to contribute to innovative projects and build real-world solutions 
+      while continuing to develop technical and professional skills.
+    </p>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><b>B.Tech (Computer Science)</b>, Kanpur Institute of Technology — CGPA 9.33 (2024–2028)</li>
+      <li><b>JEE Mains</b>, Rank — 386479, Score — 73.96 (2023–2024)</li>
+      <li><b>12th</b>, Radha Krishna Memorial Education Center — 89% (2023–2024)</li>
+      <li><b>10th</b>, Radha Krishna Memorial Education Center — 84% (2021–2022)</li>
+    </ul>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div>Python</div>
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>C</div>
+      <div>C++</div>
+      <div>Git/GitHub</div>
+      <div>VS Code</div>
+      <div>CorelDRAW</div>
+      <div>Adobe Photoshop</div>
+      <div>AI & Web Development</div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Hidden Camera Detector</h3>
+        <p>AI-based software tool designed to detect hidden cameras using visual patterns.</p>
+        <p><b>Tech:</b> Python, OpenCV, NumPy</p>
+        <a href="https://github.com/shaili-dixit/camera_detector.git">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Employee Salary Prediction Model</h3>
+        <p>Developed an AI model using Python to predict employee salary based on input features.</p>
+        <p><b>Tech:</b> Python, Pandas, Jupyter</p>
+        <a href="https://github.com/shaili-dixit/employee-predict-salary.git">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Finance Management Assistant</h3>
+        <p>Responsive web app for personal finance tracking.</p>
+        <p><b>Tech:</b> HTML, CSS, JavaScript</p>
+        <a href="https://github.com/shaili-dixit/Finance-Management-Assist.git">View Project</a>
+      </div>
+    </div>
+  </section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="marquee" id="certMarquee">
+    <div class="marquee-content">
+      <!-- Add as many certificates as you want -->
+      <div class="cert-item" onclick="openCert('certificates/python.png', 'Programming in Python - SWAYAM (87/100)')">
+        <a href="https://ibb.co/zW4j4p9S"><img src="https://i.ibb.co/mrc1ckZH/Whats-App-Image-2025-09-24-at-19-03-20-1fa505a4.jpg" alt="Whats-App-Image-2025-09-24-at-19-03-20-1fa505a4" border="0"></a><br />
+        <p>Programming in Python - SWAYAM</p>
+      </div>
+      <div class="cert-item" onclick="openCert('certificates/ibm.png', 'AI Fundamentals by IBM')">
+        <a href="https://ibb.co/0VGnGpQ5"><img src="https://i.ibb.co/cXryrKxq/Whats-App-Image-2025-09-24-at-18-58-48-16801f6e.jpg" alt="Whats-App-Image-2025-09-24-at-18-58-48-16801f6e" border="0"></a><br />
+        <p>AI Fundamentals by IBM</p>
+      </div>
+      <div class="cert-item" onclick="openCert('certificates/microsoft.png', 'Code for Bharat - Microsoft')">
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/G3vdHmDB/Whats-App-Image-2025-09-24-at-19-11-15-1bbedd44.jpg" alt="Whats-App-Image-2025-09-24-at-19-11-15-1bbedd44" border="0"></a>
+        <p>Code for Bharat - Microsoft</p>
+      </div>
+      <div class="cert-item" onclick="openCert('certificates/Adobe.png', 'Adobe India Hackathon 2025')">
+      <a href="https://ibb.co/VYM7rdwJ"><img src="https://i.ibb.co/RTQxZ1jY/Whats-App-Image-2025-09-24-at-19-03-59-12fe024f.jpg" alt="Whats-App-Image-2025-09-24-at-19-03-59-12fe024f" border="0"></a>
+        <p>Adobe India Hackathon 2025</p>  
+      </div>
+      <div class="cert-item" onclick="openCert('certificates/ibmin.png', 'IBM Internship Certificate')">
+        <a href="https://ibb.co/W42Xmqfn"><img src="https://i.ibb.co/21krGmdq/Whats-App-Image-2025-09-24-at-19-12-10-548ef7e4.jpg" alt="Whats-App-Image-2025-09-24-at-19-12-10-548ef7e4" border="0"></a>
+        <p>IBM Internship Certificate</p>
+      </div>
+
+      <div class="cert-item" onclick="openCert('certificates/ibmin.png', 'Bharatiya Antariksh Hackathon')">
+        <a href="https://ibb.co/ycYXsWg0"><img src="https://i.ibb.co/0RFcJhYq/Whats-App-Image-2025-09-24-at-19-13-44-e83fe0ec.jpg" alt="Whats-App-Image-2025-09-24-at-19-13-44-e83fe0ec" border="0"></a>
+        <p>Bharatiya Antariksh Hackathon</p>
+      </div>
+
+      <div class="cert-item" onclick="openCert('certificates/Adobe.png', 'Hackloop Hackathon 2025')">
+      <a href="https://ibb.co/hRtLmQP9"><img src="https://i.ibb.co/qMP7rqtj/Whats-App-Image-2025-09-24-at-19-13-45-ebbe2481.jpg" alt="Whats-App-Image-2025-09-24-at-19-13-45-ebbe2481" border="0"></a> 
+      <p>Hackloop Hackathon 2025</p>  
+      </div>
+
+      <div class="cert-item" onclick="openCert('certificates/ibmin.png', 'ODCA Course in Nielit Institute')">
+        <a href="https://ibb.co/Kxvdq93j"><img src="https://i.ibb.co/k2Cj8hWg/Whats-App-Image-2025-09-24-at-19-36-41-113ba4f6.jpg" alt="Whats-App-Image-2025-09-24-at-19-36-41-113ba4f6" border="0"></a>
+        <p>ODCA Course in Nielit Institute</p>
+      </div>
+
+      <!-- Duplicate list will be injected here by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ===== MODAL POPUP ===== -->
+<div id="certModal" class="modal">
+  <span class="close" onclick="closeCert()">&times;</span>
+  <img id="modalImg" src="" alt="Certificate">
+  <div id="modalCaption"></div>
+</div>
+
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:240473@kit.ac.in">240473@kit.ac.in</a></p>
+    <p>Phone: +91 8115957801</p>
+    <p>
+      <a href="#">LinkedIn</a> | 
+      <a href="#">GitHub</a> | 
+      <a href="#">LeetCode</a>
+    </p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Shaili Dixit. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
